@@ -13,7 +13,7 @@ import com.mutualfunds.mf.entity.MutualFunds;
 @Repository
 public interface MutualFundsRepository extends JpaRepository<MutualFunds, Long>{
 	
-	@Query(value = "Select * from mutual_funds order by delta desc limit ?",nativeQuery = true)
+	@Query(value = "Select * from mutual_funds order by delta desc limit ?", nativeQuery = true)
 	public List<MutualFunds> fetchTopMutualFunds(int limit);
 	
 	@Query(value = "Select * from mutual_funds order by delta asc limit ?",nativeQuery = true)

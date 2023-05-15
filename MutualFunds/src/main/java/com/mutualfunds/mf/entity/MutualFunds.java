@@ -38,6 +38,21 @@ public class MutualFunds {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	
+	public MutualFunds(String fundHouse, String symbol, String schemaName, String schemaCategory, String description,
+			Double currentPrice, Double delta, List<MutualFundsHistory> history) {
+		super();
+		this.fundHouse = fundHouse;
+		this.symbol = symbol;
+		this.schemaName = schemaName;
+		this.schemaCategory = schemaCategory;
+		this.description = description;
+		this.currentPrice = currentPrice;
+		this.delta = delta;
+		this.history = history;
+	}
+
 
 	public MutualFunds(Long schemaId, String fundHouse, String symbol, String schemaName, String schemaCategory,
 			String description, Double currentPrice, Double delta, List<MutualFundsHistory> history) {
