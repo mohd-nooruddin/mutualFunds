@@ -49,8 +49,6 @@ INSERT INTO mutual_funds (current_price, delta, description, fund_house, schema_
 VALUES (37.2, 0.3, 'Invest in Indian government securities', 'HDFC', 'Debt', 'HDFC Gilt Fund', 'HDFC-GILT');
 INSERT INTO mutual_funds (current_price, delta, description, fund_house, schema_category, schema_name, symbol)
 VALUES (62.8, 0.5, 'Invest in Indian large-cap companies', 'Reliance', 'Equity', 'Reliance Large Cap Fund', 'RELIANCE-LARGE');
-INSERT INTO mutual_funds (current_price, delta, description, fund_house, schema_category, schema_name, symbol)
-VALUES (55.2, 0.4, 'Invest in Indian mid-cap companies', 'DSP', 'Equity', 'DSP Midcap Fund', 'DSP-MID');
 
 
 
